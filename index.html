@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f8f4" />
+    <meta
+      name="description"
+      content="Meet Dr. Maya Patel, cardiologist, and explore her practice and appointment availability."
+    />
+    <title>Dr. Maya Patel | Kindred Health</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kindred Health home">
+        <span class="brand-mark" aria-hidden="true">+</span>
+        <span>kindred<span class="brand-light">health</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">Find care</a>
+        <a href="#reviews">For patients</a>
+      </nav>
+      <a class="header-action" href="#availability">Appointments <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top" class="page-shell">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="#top">Doctors</a>
+        <span aria-hidden="true">/</span>
+        <a href="#top">Cardiology</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">Dr. Maya Patel</span>
+      </nav>
+
+      <section class="profile-layout" aria-labelledby="doctor-name">
+        <div class="profile-content">
+          <div class="profile-hero">
+            <div class="portrait-wrap">
+              <img
+                class="portrait"
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=85"
+                alt="Dr. Maya Patel"
+              />
+              <span class="portrait-caption"><span class="status-dot"></span> Accepting new patients</span>
+            </div>
+            <div class="doctor-intro">
+              <p class="eyebrow">CARDIOLOGY <span>·</span> INTERNAL MEDICINE</p>
+              <h1 id="doctor-name">Dr. Maya Patel</h1>
+              <p class="doctor-subtitle">Care for your heart, grounded in listening.</p>
+              <div class="rating-line">
+                <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+                <strong>4.9</strong>
+                <a href="#reviews">128 patient reviews</a>
+              </div>
+              <div class="quick-facts" aria-label="Doctor at a glance">
+                <div class="quick-fact">
+                  <span class="fact-icon" aria-hidden="true">✳</span>
+                  <span><strong>12 years</strong><small>in practice</small></span>
+                </div>
+                <div class="quick-fact">
+                  <span class="fact-icon" aria-hidden="true">⌖</span>
+                  <span><strong>Board certified</strong><small>Cardiology</small></span>
+                </div>
+                <div class="quick-fact">
+                  <span class="fact-icon" aria-hidden="true">◎</span>
+                  <span><strong>English, Hindi</strong><small>languages</small></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <section id="about" class="content-section about-section">
+            <div class="section-heading">
+              <p class="eyebrow">A LITTLE ABOUT MY PRACTICE</p>
+              <h2>Good care starts with a conversation.</h2>
+            </div>
+            <p class="body-copy">
+              I help people make sense of their heart health with clear answers and a plan that fits real life. Whether you are managing a long-term condition or looking for a first check-in, we will take the time to understand what matters to you.
+            </p>
+            <div class="specialty-list" aria-label="Areas of focus">
+              <span>Preventive cardiology</span>
+              <span>Heart rhythm care</span>
+              <span>Cholesterol management</span>
+              <span>Women's heart health</span>
+            </div>
+          </section>
+
+          <section class="content-section practice-section" aria-labelledby="practice-title">
+            <div class="section-heading compact-heading">
+              <p class="eyebrow">PRACTICE DETAILS</p>
+              <h2 id="practice-title">Where to find me</h2>
+            </div>
+            <div class="practice-details">
+              <div class="practice-icon" aria-hidden="true">⌖</div>
+              <div>
+                <strong>Kindred Heart &amp; Wellness</strong>
+                <p>245 West 17th Street, Suite 410<br />New York, NY 10011</p>
+                <p class="muted">In-person visits <span aria-hidden="true">·</span> Telehealth available</p>
+              </div>
+              <a class="text-link" href="https://maps.google.com/?q=245+West+17th+Street+New+York+NY+10011" target="_blank" rel="noreferrer">View map <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="insurance-line">
+              <span class="insurance-check" aria-hidden="true">✓</span>
+              <span><strong>Insurance accepted</strong><small>Aetna, Blue Cross Blue Shield, Cigna, UnitedHealthcare</small></span>
+            </div>
+          </section>
+
+          <section id="reviews" class="content-section review-section" aria-labelledby="review-title">
+            <div class="review-heading">
+              <div class="section-heading compact-heading">
+                <p class="eyebrow">PATIENT NOTES</p>
+                <h2 id="review-title">People feel heard here.</h2>
+              </div>
+              <a class="text-link" href="#reviews">All 128 reviews <span aria-hidden="true">→</span></a>
+            </div>
+            <blockquote>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <p>“Dr. Patel explained everything in a way that finally made sense. I left feeling listened to, not rushed.”</p>
+              <footer>Jordan R. <span>·</span> Verified patient</footer>
+            </blockquote>
+          </section>
+        </div>
+
+        <aside id="availability" class="availability-panel" aria-labelledby="availability-title">
+          <div class="availability-topline"><span class="calendar-icon" aria-hidden="true">▦</span><span>PLAN YOUR VISIT</span></div>
+          <h2 id="availability-title">Find a time</h2>
+          <p class="availability-intro">Choose an available appointment to see what works for you.</p>
+          <div class="visit-type"><span class="visit-icon" aria-hidden="true">♡</span><span><strong>Initial consultation</strong><small>30 minutes <span>·</span> In person</small></span><span class="visit-chevron" aria-hidden="true">⌄</span></div>
+          <div class="availability-label"><span>AVAILABLE DATES</span><span class="timezone">Eastern time</span></div>
+          <div id="date-options" class="date-options" role="group" aria-label="Available appointment dates"></div>
+          <div class="availability-label time-label"><span>AVAILABLE TIMES</span><span id="selected-date-label" class="timezone"></span></div>
+          <div id="time-options" class="time-options" role="group" aria-label="Available appointment times"></div>
+          <p id="selection-message" class="selection-message" aria-live="polite">Select a time to continue.</p>
+          <button id="continue-button" class="continue-button" type="button" disabled>Continue <span aria-hidden="true">→</span></button>
+          <p class="booking-note"><span aria-hidden="true">⌑</span> You can review details before confirming.</p>
+        </aside>
+      </section>
+    </main>
+    <footer class="site-footer"><span>kindred<span class="brand-light">health</span></span><span>Thoughtful care, closer to home.</span><a href="#top">Back to top ↑</a></footer>
+  </body>
+</html>
